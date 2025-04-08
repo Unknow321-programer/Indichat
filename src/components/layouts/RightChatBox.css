@@ -1,0 +1,37 @@
+.bottom-container {
+    position: sticky;
+    bottom: 0;
+    top: 100%;
+}
+
+.bottom-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
+
+.fafont {
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+    margin-right: 15px;
+}
+.chattext {
+    border: none;
+    width: 80%;
+    outline: none;
+    margin-right: 15px;
+    resize: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.chattext::-webkit-scrollbar {
+    display: none;
+}
+.emoji-mart {
+    width: 350px !important;
+    height: 400px !important;
+    color: aqua !important;
+    background-color: brown !important;
+}

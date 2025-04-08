@@ -1,0 +1,36 @@
+.left-section {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    height: 100vh;
+    margin: 0px;
+    width: 33%;
+    overflow: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: grey rgb(255, 255, 255) ;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+.main-users-profile {
+    display: flex;
+    flex-direction:row;
+    border-bottom: solid 1px black;
+    margin-left: 10px;
+}
+.main-users-profile img {
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    align-self: center;
+}
+.user-profile-data {
+    display: flex;
+    flex-direction: column;
+    margin: 9px;
+    overflow: wrap;
+}
+.user-profile-data span {
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
