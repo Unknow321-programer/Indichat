@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Project Information ->
+## Description : 
+This project is demostraint the chat base application. users can creating chat rooms, sending messages to bidirectionaly to each other.
+
+## Repository Info:
+In above repository folder is components/layouts having Frontend code. their are whole reactjs components youo can see.
+
+## Some other features :
+others feature are inprogress, like uploading user profile pic, name, contact etc. it is visible very soon.
+
+## Any issue :
+if you face any issue then raise issue we will definatly give replay.
+
+Thank You.
