@@ -1,11 +1,69 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 .container {
+    font-family: 'Poppins', 'Inter', 'Nunito', sans-serif;
     border: 1px solid black;
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    background-image: url(Images/BackgroundIndichat.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
-.loginview input{
-    border: 1px solid black;
+
+.loginview {
+    box-shadow: 3px 7px 20px #00f0ff66;
+}
+.loginview:hover {
+    box-shadow: 0 0 10px #00f0ff99;
+    transition: all 0.3 ease;
+}
+
+.loginview input {
+    padding: 10px;
+    margin-bottom: 10px;
     display: block;
+    border: 1px solid #00f0ff;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    outline: none;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px #00f0ff66;
+}
+
+.loginview input::placeholder {
+    color: aliceblue;
+}
+
+.loginview input:focus {
+    border-color: #00f0ff;
+    box-shadow: 0 0 10px #00f0ff99;
+    transition: all 0.3s ease;
+}
+
+.loginview input[type="button"] {
+    background-color: transparent;
+    color: #00f0ff;
+    border: 2px solid #00f0ff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 8px #00f0ff55;
+    width: 100%;
+}
+.loginview input[type="button"]:hover {
+    background-color: #00f0ff;
+    color: #0a0a0a;
+    box-shadow: 0 0 16px #00f0ffaa;
 }
